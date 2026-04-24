@@ -1,0 +1,118 @@
+body {
+  background-color: #f4f8f1;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dashboard-card {
+  border-width: 2px;
+  border-radius: 12px;
+}
+
+.card {
+  border-radius: 12px;
+}
+
+.sensor-normal {
+  border-left: 6px solid #198754;
+}
+
+.sensor-atencao {
+  border-left: 6px solid #ffc107;
+  background-color: #fff9e6;
+}
+
+.sensor-critico {
+  border-left: 6px solid #dc3545;
+  background-color: #fff1f1;
+}
+
+footer address {
+  font-style: normal;
+}
+
+button {
+  font-weight: 500;
+}
+
+.navbar-brand {
+  color: #198754;
+}
+
+.form-control:focus {
+  border-color: #198754;
+  box-shadow: 0 0 0 0.2rem rgba(25, 135, 84, 0.25);
+}
+
+.list-group-item {
+  background-color: #ffffff;
+}
+
+main {
+  min-height: 70vh;
+}
+
+.progress {
+  height: 24px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.progress-bar {
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  border-color: #2563eb;
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  min-height: 70vh;
+}
+
+aside section {
+  height: 100%;
+}
+
+footer {
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  aside {
+    min-height: 70vh;
+  }
+
+  aside section {
+    min-height: 70vh;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar .container-fluid {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .navbar-brand {
+    margin-right: 0;
+  }
+
+  header h1,
+  header p {
+    text-align: center;
+  }
+}
