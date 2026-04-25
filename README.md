@@ -90,6 +90,8 @@ src/
 ├── App.tsx
 ├── main.tsx
 └── styles.css
+```
+
 Justificativa da Arquitetura
 
 A aplicação foi dividida em componentes menores para melhorar a organização, a reutilização e a manutenção do código.
