@@ -5,7 +5,11 @@ O **UMI — Umidade Monitorada Inteligente** é uma aplicação web acadêmica d
 O sistema simula o monitoramento da umidade do solo em pequenas propriedades agrícolas. A aplicação permite cadastrar sensores, gerar leituras automáticas de umidade, atualizar leituras simuladas, filtrar sensores por status, excluir sensores e visualizar um relatório técnico da propriedade.
 
 ---
+## Link do Youtube:
 
+**https://youtu.be/FfDlPimZYIQ**
+
+---
 ## Objetivo do Projeto
 
 O objetivo do projeto é demonstrar a construção de uma aplicação web funcional utilizando React com TypeScript, seguindo boas práticas de componentização, organização de arquivos, tipagem de dados, responsividade com Bootstrap e manipulação de estado com `useState`.
