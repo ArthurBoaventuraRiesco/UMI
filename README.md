@@ -92,7 +92,7 @@ src/
 └── styles.css
 ```
 
-Justificativa da Arquitetura
+## Justificativa da Arquitetura
 
 A aplicação foi dividida em componentes menores para melhorar a organização, a reutilização e a manutenção do código.
 
@@ -114,8 +114,9 @@ data: armazena os dados simulados iniciais.
 interfaces: armazena os contratos TypeScript usados na aplicação.
 
 Essa estrutura segue a ideia de separação de responsabilidades, pois cada arquivo possui uma função específica dentro do sistema.
-
-Uso do TypeScript
+```
+```
+## Uso do TypeScript
 
 O TypeScript foi utilizado para aumentar a segurança dos dados e evitar erros durante o desenvolvimento.
 
@@ -130,8 +131,9 @@ export interface ISensorUmidade {
 }
 
 Além da interface principal, as Props dos componentes também foram tipadas, garantindo que cada componente receba apenas os dados necessários e no formato correto.
-
-Lógica de Estado
+```
+```
+## Lógica de Estado
 
 A aplicação utiliza o hook useState para controlar os principais dados do sistema:
 
@@ -143,7 +145,7 @@ Quando o usuário cadastra um sensor, atualiza uma leitura ou exclui um sensor, 
 
 A atualização de leitura simula o funcionamento de um sensor real: o sistema gera uma nova porcentagem de umidade, recalcula o status e altera a aparência visual do card.
 
-Responsividade
+ ## Responsividade
 
 O layout utiliza o sistema de grid do Bootstrap.
 
@@ -154,7 +156,7 @@ conteúdo principal: col-lg-9.
 
 No celular, as colunas usam col-12, fazendo com que os blocos se empilhem verticalmente e se adaptem à tela menor.
 
-Semântica HTML5
+ ## Semântica HTML5
 
 Foram utilizadas tags semânticas para melhorar a estrutura da página:
 
@@ -168,7 +170,7 @@ footer
 address
 Como Executar o Projeto
 
-Clone o repositório:
+ ## Clone o repositório:
 
 git clone LINK_DO_REPOSITORIO
 
@@ -187,12 +189,12 @@ npm run dev
 Depois, acesse no navegador o endereço exibido no terminal, geralmente:
 
 http://localhost:5173/
-Identificação
+## Identificação
 
 Aluno: Arthur Boaventura Riesco
 Data: 24 de abril de 2026
 Disciplina: Desenvolvimento de Software Web
 
-Observação:
+## Observação:
 
 Este projeto é uma simulação acadêmica. As leituras de umidade são geradas automaticamente pelo sistema e não representam dados reais de sensores físicos.
